@@ -1,0 +1,161 @@
+[2017-06-17 17:17:49 +0800] [12287] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x1038ce230>
+  errorlog: /Users/zhouze/Documents/AppWorkspace/PycharmProjects/baidu/kg-lx/stone-restful-app/conf/../log/err.log
+  enable_stdio_inheritance: False
+  worker_class: gunicorn.workers.ggevent.GeventWorker
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x1038c3ed8>
+  pre_fork: <function pre_fork at 0x1038ce0c8>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: /Users/zhouze/Documents/AppWorkspace/PycharmProjects/baidu/kg-lx/stone-restful-app/conf/../log/access.log
+  group: 20
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 17
+  proc_name: None
+  sendfile: None
+  pidfile: /Users/zhouze/Documents/AppWorkspace/PycharmProjects/baidu/kg-lx/stone-restful-app/conf/../log/gunicorn.pid
+  umask: 0
+  on_reload: <function on_reload at 0x1038c3d70>
+  pre_exec: <function pre_exec at 0x1038ce7d0>
+  worker_tmp_dir: None
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x1038d2050>
+  config: /Users/zhouze/Documents/AppWorkspace/PycharmProjects/baidu/kg-lx/stone-restful-app/bin/../conf/gunicorn.py
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x1038ce938>
+  post_request: <function post_request at 0x1038cea28>
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x1038ce500>
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  chdir: /Users/zhouze/Documents/AppWorkspace/PycharmProjects/baidu/kg-lx/stone-restful-app/src
+  daemon: False
+  user: 501
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x1038c3c08>
+  post_worker_init: <function post_worker_init at 0x1038ce398>
+  child_exit: <function child_exit at 0x1038ceb90>
+  worker_exit: <function worker_exit at 0x1038cecf8>
+  paste: None
+  default_proc_name: wsgi:gunicorn_application
+  syslog_addr: unix:///var/run/syslog
+  syslog_prefix: None
+  ciphers: TLSv1
+  worker_abort: <function worker_abort at 0x1038ce668>
+  loglevel: debug
+  bind: ['127.0.0.1:5000']
+  raw_env: []
+  initgroups: False
+  capture_output: True
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x1038cee60>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2017-06-17 17:17:49 +0800] [12287] [INFO] Starting gunicorn 19.7.1
+[2017-06-17 17:17:49 +0800] [12287] [DEBUG] Arbiter booted
+[2017-06-17 17:17:49 +0800] [12287] [INFO] Listening at: http://127.0.0.1:5000 (12287)
+[2017-06-17 17:17:49 +0800] [12287] [INFO] Using worker: gunicorn.workers.ggevent.GeventWorker
+[2017-06-17 17:17:49 +0800] [12299] [INFO] Booting worker with pid: 12299
+[2017-06-17 17:17:49 +0800] [12300] [INFO] Booting worker with pid: 12300
+[2017-06-17 17:17:49 +0800] [12301] [INFO] Booting worker with pid: 12301
+[2017-06-17 17:17:49 +0800] [12302] [INFO] Booting worker with pid: 12302
+[2017-06-17 17:17:49 +0800] [12303] [INFO] Booting worker with pid: 12303
+[2017-06-17 17:17:49 +0800] [12304] [INFO] Booting worker with pid: 12304
+[2017-06-17 17:17:49 +0800] [12305] [INFO] Booting worker with pid: 12305
+[2017-06-17 17:17:49 +0800] [12306] [INFO] Booting worker with pid: 12306
+[2017-06-17 17:17:49 +0800] [12307] [INFO] Booting worker with pid: 12307
+[2017-06-17 17:17:49 +0800] [12308] [INFO] Booting worker with pid: 12308
+[2017-06-17 17:17:49 +0800] [12309] [INFO] Booting worker with pid: 12309
+[2017-06-17 17:17:49 +0800] [12310] [INFO] Booting worker with pid: 12310
+[2017-06-17 17:17:49 +0800] [12311] [INFO] Booting worker with pid: 12311
+[2017-06-17 17:17:49 +0800] [12312] [INFO] Booting worker with pid: 12312
+[2017-06-17 17:17:49 +0800] [12313] [INFO] Booting worker with pid: 12313
+[2017-06-17 17:17:49 +0800] [12314] [INFO] Booting worker with pid: 12314
+[2017-06-17 17:17:50 +0800] [12287] [DEBUG] 17 workers
+[2017-06-17 17:17:50 +0800] [12315] [INFO] Booting worker with pid: 12315
+[2017-06-17 17:17:54 +0800] [12308] [DEBUG] POST /stone/register
+[Flask-log] File:"all_rest_api.py" [2017-06-17 17:17:54,771] line:21 INFO:request_data is = {u'username': u'zhouze03', u'stone_app_name': u'stone-restful-app', u'agile_module_name': u'baidu/kg-lx/stone-restful-app', u'version': u'0a5bd23e12d33c39a4770e0ba3cf7f56f310997a', u'stone_app_dir': u'/home/disk2/stone_users_application/stone-restful-app'}
+[Flask-log] File:"request_valid.py" [2017-06-17 17:17:54,772] line:17 INFO:{u'username': u'zhouze03', u'stone_app_name': u'stone-restful-app', u'agile_module_name': u'baidu/kg-lx/stone-restful-app', u'version': u'0a5bd23e12d33c39a4770e0ba3cf7f56f310997a', u'stone_app_dir': u'/home/disk2/stone_users_application/stone-restful-app'}
+[2017-06-17 17:17:55 +0800] [12308] [DEBUG] POST /stone/register
+[Flask-log] File:"all_rest_api.py" [2017-06-17 17:17:55,020] line:21 INFO:request_data is = {u'username': u'zhouze03', u'stone_app_name': u'stone-restful-app', u'agile_module_name': u'baidu/kg-lx/stone-restful-app', u'version': u'0a5bd23e12d33c39a4770e0ba3cf7f56f310997a', u'stone_app_dir': u'/home/disk2/stone_users_application/stone-restful-app'}
+[Flask-log] File:"request_valid.py" [2017-06-17 17:17:55,020] line:17 INFO:{u'username': u'zhouze03', u'stone_app_name': u'stone-restful-app', u'agile_module_name': u'baidu/kg-lx/stone-restful-app', u'version': u'0a5bd23e12d33c39a4770e0ba3cf7f56f310997a', u'stone_app_dir': u'/home/disk2/stone_users_application/stone-restful-app'}
+[2017-06-17 17:17:55 +0800] [12308] [DEBUG] POST /stone/register
+[Flask-log] File:"all_rest_api.py" [2017-06-17 17:17:55,177] line:21 INFO:request_data is = {u'username': u'zhouze03', u'stone_app_name': u'stone-restful-app', u'agile_module_name': u'baidu/kg-lx/stone-restful-app', u'version': u'0a5bd23e12d33c39a4770e0ba3cf7f56f310997a', u'stone_app_dir': u'/home/disk2/stone_users_application/stone-restful-app'}
+[Flask-log] File:"request_valid.py" [2017-06-17 17:17:55,177] line:17 INFO:{u'username': u'zhouze03', u'stone_app_name': u'stone-restful-app', u'agile_module_name': u'baidu/kg-lx/stone-restful-app', u'version': u'0a5bd23e12d33c39a4770e0ba3cf7f56f310997a', u'stone_app_dir': u'/home/disk2/stone_users_application/stone-restful-app'}
+[2017-06-17 17:17:55 +0800] [12308] [DEBUG] POST /stone/register
+[Flask-log] File:"all_rest_api.py" [2017-06-17 17:17:55,298] line:21 INFO:request_data is = {u'username': u'zhouze03', u'stone_app_name': u'stone-restful-app', u'agile_module_name': u'baidu/kg-lx/stone-restful-app', u'version': u'0a5bd23e12d33c39a4770e0ba3cf7f56f310997a', u'stone_app_dir': u'/home/disk2/stone_users_application/stone-restful-app'}
+[Flask-log] File:"request_valid.py" [2017-06-17 17:17:55,298] line:17 INFO:{u'username': u'zhouze03', u'stone_app_name': u'stone-restful-app', u'agile_module_name': u'baidu/kg-lx/stone-restful-app', u'version': u'0a5bd23e12d33c39a4770e0ba3cf7f56f310997a', u'stone_app_dir': u'/home/disk2/stone_users_application/stone-restful-app'}
+[2017-06-17 17:17:55 +0800] [12308] [DEBUG] POST /stone/register
+[Flask-log] File:"all_rest_api.py" [2017-06-17 17:17:55,447] line:21 INFO:request_data is = {u'username': u'zhouze03', u'stone_app_name': u'stone-restful-app', u'agile_module_name': u'baidu/kg-lx/stone-restful-app', u'version': u'0a5bd23e12d33c39a4770e0ba3cf7f56f310997a', u'stone_app_dir': u'/home/disk2/stone_users_application/stone-restful-app'}
+[Flask-log] File:"request_valid.py" [2017-06-17 17:17:55,447] line:17 INFO:{u'username': u'zhouze03', u'stone_app_name': u'stone-restful-app', u'agile_module_name': u'baidu/kg-lx/stone-restful-app', u'version': u'0a5bd23e12d33c39a4770e0ba3cf7f56f310997a', u'stone_app_dir': u'/home/disk2/stone_users_application/stone-restful-app'}
+[2017-06-17 17:17:55 +0800] [12308] [DEBUG] POST /stone/register
+[Flask-log] File:"all_rest_api.py" [2017-06-17 17:17:55,592] line:21 INFO:request_data is = {u'username': u'zhouze03', u'stone_app_name': u'stone-restful-app', u'agile_module_name': u'baidu/kg-lx/stone-restful-app', u'version': u'0a5bd23e12d33c39a4770e0ba3cf7f56f310997a', u'stone_app_dir': u'/home/disk2/stone_users_application/stone-restful-app'}
+[Flask-log] File:"request_valid.py" [2017-06-17 17:17:55,592] line:17 INFO:{u'username': u'zhouze03', u'stone_app_name': u'stone-restful-app', u'agile_module_name': u'baidu/kg-lx/stone-restful-app', u'version': u'0a5bd23e12d33c39a4770e0ba3cf7f56f310997a', u'stone_app_dir': u'/home/disk2/stone_users_application/stone-restful-app'}
+[2017-06-17 17:17:55 +0800] [12308] [DEBUG] POST /stone/register
+[Flask-log] File:"all_rest_api.py" [2017-06-17 17:17:55,743] line:21 INFO:request_data is = {u'username': u'zhouze03', u'stone_app_name': u'stone-restful-app', u'agile_module_name': u'baidu/kg-lx/stone-restful-app', u'version': u'0a5bd23e12d33c39a4770e0ba3cf7f56f310997a', u'stone_app_dir': u'/home/disk2/stone_users_application/stone-restful-app'}
+[Flask-log] File:"request_valid.py" [2017-06-17 17:17:55,743] line:17 INFO:{u'username': u'zhouze03', u'stone_app_name': u'stone-restful-app', u'agile_module_name': u'baidu/kg-lx/stone-restful-app', u'version': u'0a5bd23e12d33c39a4770e0ba3cf7f56f310997a', u'stone_app_dir': u'/home/disk2/stone_users_application/stone-restful-app'}
+[2017-06-17 17:17:55 +0800] [12308] [DEBUG] POST /stone/register
+[Flask-log] File:"all_rest_api.py" [2017-06-17 17:17:55,918] line:21 INFO:request_data is = {u'username': u'zhouze03', u'stone_app_name': u'stone-restful-app', u'agile_module_name': u'baidu/kg-lx/stone-restful-app', u'version': u'0a5bd23e12d33c39a4770e0ba3cf7f56f310997a', u'stone_app_dir': u'/home/disk2/stone_users_application/stone-restful-app'}
+[Flask-log] File:"request_valid.py" [2017-06-17 17:17:55,918] line:17 INFO:{u'username': u'zhouze03', u'stone_app_name': u'stone-restful-app', u'agile_module_name': u'baidu/kg-lx/stone-restful-app', u'version': u'0a5bd23e12d33c39a4770e0ba3cf7f56f310997a', u'stone_app_dir': u'/home/disk2/stone_users_application/stone-restful-app'}
+[2017-06-17 17:17:56 +0800] [12308] [DEBUG] POST /stone/register
+[Flask-log] File:"all_rest_api.py" [2017-06-17 17:17:56,066] line:21 INFO:request_data is = {u'username': u'zhouze03', u'stone_app_name': u'stone-restful-app', u'agile_module_name': u'baidu/kg-lx/stone-restful-app', u'version': u'0a5bd23e12d33c39a4770e0ba3cf7f56f310997a', u'stone_app_dir': u'/home/disk2/stone_users_application/stone-restful-app'}
+[Flask-log] File:"request_valid.py" [2017-06-17 17:17:56,067] line:17 INFO:{u'username': u'zhouze03', u'stone_app_name': u'stone-restful-app', u'agile_module_name': u'baidu/kg-lx/stone-restful-app', u'version': u'0a5bd23e12d33c39a4770e0ba3cf7f56f310997a', u'stone_app_dir': u'/home/disk2/stone_users_application/stone-restful-app'}
+[2017-06-17 17:57:51 +0800] [12304] [INFO] Parent changed, shutting down: <Worker 12304>
+[2017-06-17 17:57:51 +0800] [12300] [INFO] Parent changed, shutting down: <Worker 12300>
+[2017-06-17 17:57:51 +0800] [12301] [INFO] Parent changed, shutting down: <Worker 12301>
+[2017-06-17 17:57:51 +0800] [12299] [INFO] Parent changed, shutting down: <Worker 12299>
+[2017-06-17 17:57:51 +0800] [12302] [INFO] Parent changed, shutting down: <Worker 12302>
+[2017-06-17 17:57:51 +0800] [12303] [INFO] Parent changed, shutting down: <Worker 12303>
+[2017-06-17 17:57:51 +0800] [12301] [INFO] Worker exiting (pid: 12301)
+[2017-06-17 17:57:51 +0800] [12299] [INFO] Worker exiting (pid: 12299)
+[2017-06-17 17:57:51 +0800] [12300] [INFO] Worker exiting (pid: 12300)
+[2017-06-17 17:57:51 +0800] [12302] [INFO] Worker exiting (pid: 12302)
+[2017-06-17 17:57:51 +0800] [12304] [INFO] Worker exiting (pid: 12304)
+[2017-06-17 17:57:51 +0800] [12303] [INFO] Worker exiting (pid: 12303)
+[2017-06-17 17:57:51 +0800] [12306] [INFO] Parent changed, shutting down: <Worker 12306>
+[2017-06-17 17:57:51 +0800] [12309] [INFO] Parent changed, shutting down: <Worker 12309>
+[2017-06-17 17:57:51 +0800] [12306] [INFO] Worker exiting (pid: 12306)
+[2017-06-17 17:57:51 +0800] [12305] [INFO] Parent changed, shutting down: <Worker 12305>
+[2017-06-17 17:57:51 +0800] [12309] [INFO] Worker exiting (pid: 12309)
+[2017-06-17 17:57:51 +0800] [12305] [INFO] Worker exiting (pid: 12305)
+[2017-06-17 17:57:51 +0800] [12308] [INFO] Parent changed, shutting down: <Worker 12308>
+[2017-06-17 17:57:51 +0800] [12307] [INFO] Parent changed, shutting down: <Worker 12307>
+[2017-06-17 17:57:51 +0800] [12308] [INFO] Worker exiting (pid: 12308)
+[2017-06-17 17:57:51 +0800] [12307] [INFO] Worker exiting (pid: 12307)
+[2017-06-17 17:57:52 +0800] [12310] [INFO] Parent changed, shutting down: <Worker 12310>
+[2017-06-17 17:57:52 +0800] [12310] [INFO] Worker exiting (pid: 12310)
+[2017-06-17 17:57:52 +0800] [12311] [INFO] Parent changed, shutting down: <Worker 12311>
+[2017-06-17 17:57:52 +0800] [12311] [INFO] Worker exiting (pid: 12311)
+[2017-06-17 17:57:52 +0800] [12312] [INFO] Parent changed, shutting down: <Worker 12312>
+[2017-06-17 17:57:52 +0800] [12312] [INFO] Worker exiting (pid: 12312)
+[2017-06-17 17:57:52 +0800] [12313] [INFO] Parent changed, shutting down: <Worker 12313>
+[2017-06-17 17:57:52 +0800] [12313] [INFO] Worker exiting (pid: 12313)
+[2017-06-17 17:57:52 +0800] [12314] [INFO] Parent changed, shutting down: <Worker 12314>
+[2017-06-17 17:57:52 +0800] [12315] [INFO] Parent changed, shutting down: <Worker 12315>
+[2017-06-17 17:57:52 +0800] [12314] [INFO] Worker exiting (pid: 12314)
+[2017-06-17 17:57:52 +0800] [12315] [INFO] Worker exiting (pid: 12315)

@@ -1,0 +1,1 @@
+BUILD_SUBMITTER -x -m baidu/kg-lx/stone-restful-app -c "cd baidu/kg-lx/stone-restful-app && mkdir output && cp BCLOUD ./output/" -u ./
